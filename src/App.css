@@ -1,0 +1,50 @@
+body{
+  background-color: beige;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app{
+  width: 400px;
+  margin: auto;
+  background-color: cadetblue;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.input{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.input input{
+  height: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+ 
+}
+
+.input button{
+ margin-left: 15px;
+  height: 35px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: aqua;
+  text-align: center;
+}
+
+ul li{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+
+}
+
+ul li button{
+  height: 30px;
+  background-color: rgb(124, 124, 241);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
